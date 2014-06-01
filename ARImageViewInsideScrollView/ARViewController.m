@@ -44,8 +44,10 @@
 
 - (void)handleDoubleTap:(UIGestureRecognizer *)gestureRecognizer
 {
-    self.imageView.frame = CGRectMake(0, 0, self.imageView.frame.size.width + 100, self.imageView.frame.size.height + 100);
-    self.scrollView.contentSize = self.imageView.frame.size;
+    [UIView animateWithDuration:0.3 animations:^{
+        self.imageView.frame = CGRectMake(0, 0, self.imageView.frame.size.width + 100, self.imageView.frame.size.height + 100);
+        self.scrollView.contentSize = self.imageView.frame.size;
+    }];
 }
 
 @end
