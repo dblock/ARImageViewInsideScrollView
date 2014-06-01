@@ -29,6 +29,10 @@
     scrollView.contentSize = image.size;
     
     [self centerOnPoint:CGPointMake(image.size.width / 2, image.size.height / 2) animated:YES];
+
+    UITapGestureRecognizer *doubleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleDoubleTap:)];
+    [doubleTap setNumberOfTapsRequired:2];
+    [self.view addGestureRecognizer:doubleTap];
 }
 
 - (void)centerOnPoint:(CGPoint)point animated:(BOOL)animate
@@ -36,6 +40,12 @@
     CGFloat x = point.x - (self.view.frame.size.width / 2.0f);
     CGFloat y = point.y - (self.view.frame.size.height / 2.0f);
     [self.scrollView setContentOffset:CGPointMake(round(x), round(y)) animated:animate];
+}
+
+- (void)handleDoubleTap:(UIGestureRecognizer *)gestureRecognizer
+{
+    self.imageView.frame = CGRectMake(0, 0, self.imageView.frame.size.width + 100, self.imageView.frame.size.height + 100);
+    self.scrollView.contentSize = self.imageView.frame.size;
 }
 
 @end
