@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C5BC120193BC81500AE5AAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5BC11F193BC81500AE5AAA /* CoreGraphics.framework */; };
+		3C5BC122193BC81500AE5AAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5BC121193BC81500AE5AAA /* UIKit.framework */; };
+		3C5BC128193BC81500AE5AAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C5BC126193BC81500AE5AAA /* InfoPlist.strings */; };
+		3C5BC12A193BC81500AE5AAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5BC129193BC81500AE5AAA /* main.m */; };
+		3C5BC12E193BC81500AE5AAA /* ARAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5BC12D193BC81500AE5AAA /* ARAppDelegate.m */; };
+		3C5BC131193BC81500AE5AAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5BC12F193BC81500AE5AAA /* Main.storyboard */; };
+		3C5BC134193BC81500AE5AAA /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5BC133193BC81500AE5AAA /* ARViewController.m */; };
+		3C5BC136193BC81500AE5AAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5BC135193BC81500AE5AAA /* Images.xcassets */; };
+		3C5BC13D193BC81500AE5AAA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5BC13C193BC81500AE5AAA /* XCTest.framework */; };
+		3C5BC13F193BC81500AE5AAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5BC121193BC81500AE5AAA /* UIKit.framework */; };
+		3C5BC157193BCA6200AE5AAA /* boy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C5BC156193BCA6200AE5AAA /* boy.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C5BC140193BC81500AE5AAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C5BC112193BC81500AE5AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C5BC119193BC81500AE5AAA;
+			remoteInfo = ARImageViewInsideScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C5BC11A193BC81500AE5AAA /* ARImageViewInsideScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARImageViewInsideScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5BC11F193BC81500AE5AAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3C5BC121193BC81500AE5AAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3C5BC125193BC81500AE5AAA /* ARImageViewInsideScrollView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARImageViewInsideScrollView-Info.plist"; sourceTree = "<group>"; };
+		3C5BC127193BC81500AE5AAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C5BC129193BC81500AE5AAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C5BC12B193BC81500AE5AAA /* ARImageViewInsideScrollView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARImageViewInsideScrollView-Prefix.pch"; sourceTree = "<group>"; };
+		3C5BC12C193BC81500AE5AAA /* ARAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARAppDelegate.h; sourceTree = "<group>"; };
+		3C5BC12D193BC81500AE5AAA /* ARAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARAppDelegate.m; sourceTree = "<group>"; };
+		3C5BC130193BC81500AE5AAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C5BC132193BC81500AE5AAA /* ARViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
+		3C5BC133193BC81500AE5AAA /* ARViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
+		3C5BC135193BC81500AE5AAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3C5BC13B193BC81500AE5AAA /* ARImageViewInsideScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARImageViewInsideScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5BC13C193BC81500AE5AAA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3C5BC156193BCA6200AE5AAA /* boy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boy.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C5BC117193BC81500AE5AAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5BC120193BC81500AE5AAA /* CoreGraphics.framework in Frameworks */,
+				3C5BC122193BC81500AE5AAA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5BC138193BC81500AE5AAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5BC13D193BC81500AE5AAA /* XCTest.framework in Frameworks */,
+				3C5BC13F193BC81500AE5AAA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C5BC111193BC81500AE5AAA = {
+			isa = PBXGroup;
+			children = (
+				3C5BC123193BC81500AE5AAA /* ARImageViewInsideScrollView */,
+				3C5BC11C193BC81500AE5AAA /* Frameworks */,
+				3C5BC11B193BC81500AE5AAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C5BC11B193BC81500AE5AAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C5BC11A193BC81500AE5AAA /* ARImageViewInsideScrollView.app */,
+				3C5BC13B193BC81500AE5AAA /* ARImageViewInsideScrollViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C5BC11C193BC81500AE5AAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C5BC11F193BC81500AE5AAA /* CoreGraphics.framework */,
+				3C5BC121193BC81500AE5AAA /* UIKit.framework */,
+				3C5BC13C193BC81500AE5AAA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C5BC123193BC81500AE5AAA /* ARImageViewInsideScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				3C5BC155193BCA6200AE5AAA /* Images */,
+				3C5BC12C193BC81500AE5AAA /* ARAppDelegate.h */,
+				3C5BC12D193BC81500AE5AAA /* ARAppDelegate.m */,
+				3C5BC12F193BC81500AE5AAA /* Main.storyboard */,
+				3C5BC132193BC81500AE5AAA /* ARViewController.h */,
+				3C5BC133193BC81500AE5AAA /* ARViewController.m */,
+				3C5BC135193BC81500AE5AAA /* Images.xcassets */,
+				3C5BC124193BC81500AE5AAA /* Supporting Files */,
+			);
+			path = ARImageViewInsideScrollView;
+			sourceTree = "<group>";
+		};
+		3C5BC124193BC81500AE5AAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C5BC125193BC81500AE5AAA /* ARImageViewInsideScrollView-Info.plist */,
+				3C5BC126193BC81500AE5AAA /* InfoPlist.strings */,
+				3C5BC129193BC81500AE5AAA /* main.m */,
+				3C5BC12B193BC81500AE5AAA /* ARImageViewInsideScrollView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C5BC155193BCA6200AE5AAA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3C5BC156193BCA6200AE5AAA /* boy.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C5BC119193BC81500AE5AAA /* ARImageViewInsideScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C5BC14C193BC81500AE5AAA /* Build configuration list for PBXNativeTarget "ARImageViewInsideScrollView" */;
+			buildPhases = (
+				3C5BC116193BC81500AE5AAA /* Sources */,
+				3C5BC117193BC81500AE5AAA /* Frameworks */,
+				3C5BC118193BC81500AE5AAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARImageViewInsideScrollView;
+			productName = ARImageViewInsideScrollView;
+			productReference = 3C5BC11A193BC81500AE5AAA /* ARImageViewInsideScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C5BC13A193BC81500AE5AAA /* ARImageViewInsideScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C5BC14F193BC81500AE5AAA /* Build configuration list for PBXNativeTarget "ARImageViewInsideScrollViewTests" */;
+			buildPhases = (
+				3C5BC137193BC81500AE5AAA /* Sources */,
+				3C5BC138193BC81500AE5AAA /* Frameworks */,
+				3C5BC139193BC81500AE5AAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C5BC141193BC81500AE5AAA /* PBXTargetDependency */,
+			);
+			name = ARImageViewInsideScrollViewTests;
+			productName = ARImageViewInsideScrollViewTests;
+			productReference = 3C5BC13B193BC81500AE5AAA /* ARImageViewInsideScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C5BC112193BC81500AE5AAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Artsy;
+				TargetAttributes = {
+					3C5BC13A193BC81500AE5AAA = {
+						TestTargetID = 3C5BC119193BC81500AE5AAA;
+					};
+				};
+			};
+			buildConfigurationList = 3C5BC115193BC81500AE5AAA /* Build configuration list for PBXProject "ARImageViewInsideScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C5BC111193BC81500AE5AAA;
+			productRefGroup = 3C5BC11B193BC81500AE5AAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C5BC119193BC81500AE5AAA /* ARImageViewInsideScrollView */,
+				3C5BC13A193BC81500AE5AAA /* ARImageViewInsideScrollViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C5BC118193BC81500AE5AAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5BC157193BCA6200AE5AAA /* boy.jpg in Resources */,
+				3C5BC136193BC81500AE5AAA /* Images.xcassets in Resources */,
+				3C5BC128193BC81500AE5AAA /* InfoPlist.strings in Resources */,
+				3C5BC131193BC81500AE5AAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5BC139193BC81500AE5AAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C5BC116193BC81500AE5AAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5BC12A193BC81500AE5AAA /* main.m in Sources */,
+				3C5BC134193BC81500AE5AAA /* ARViewController.m in Sources */,
+				3C5BC12E193BC81500AE5AAA /* ARAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5BC137193BC81500AE5AAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C5BC141193BC81500AE5AAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C5BC119193BC81500AE5AAA /* ARImageViewInsideScrollView */;
+			targetProxy = 3C5BC140193BC81500AE5AAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C5BC126193BC81500AE5AAA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C5BC127193BC81500AE5AAA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3C5BC12F193BC81500AE5AAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C5BC130193BC81500AE5AAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C5BC14A193BC81500AE5AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C5BC14B193BC81500AE5AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C5BC14D193BC81500AE5AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Reveal.app/Contents/SharedSupport/iOS-Libraries",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARImageViewInsideScrollView/ARImageViewInsideScrollView-Prefix.pch";
+				INFOPLIST_FILE = "ARImageViewInsideScrollView/ARImageViewInsideScrollView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3C5BC14E193BC81500AE5AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Reveal.app/Contents/SharedSupport/iOS-Libraries",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARImageViewInsideScrollView/ARImageViewInsideScrollView-Prefix.pch";
+				INFOPLIST_FILE = "ARImageViewInsideScrollView/ARImageViewInsideScrollView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3C5BC150193BC81500AE5AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ARImageViewInsideScrollView.app/ARImageViewInsideScrollView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARImageViewInsideScrollView/ARImageViewInsideScrollView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ARImageViewInsideScrollViewTests/ARImageViewInsideScrollViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3C5BC151193BC81500AE5AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ARImageViewInsideScrollView.app/ARImageViewInsideScrollView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARImageViewInsideScrollView/ARImageViewInsideScrollView-Prefix.pch";
+				INFOPLIST_FILE = "ARImageViewInsideScrollViewTests/ARImageViewInsideScrollViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C5BC115193BC81500AE5AAA /* Build configuration list for PBXProject "ARImageViewInsideScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5BC14A193BC81500AE5AAA /* Debug */,
+				3C5BC14B193BC81500AE5AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C5BC14C193BC81500AE5AAA /* Build configuration list for PBXNativeTarget "ARImageViewInsideScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5BC14D193BC81500AE5AAA /* Debug */,
+				3C5BC14E193BC81500AE5AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C5BC14F193BC81500AE5AAA /* Build configuration list for PBXNativeTarget "ARImageViewInsideScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5BC150193BC81500AE5AAA /* Debug */,
+				3C5BC151193BC81500AE5AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C5BC112193BC81500AE5AAA /* Project object */;
+}
