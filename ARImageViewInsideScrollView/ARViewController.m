@@ -22,7 +22,7 @@
     [self.view addSubview:scrollView];
     scrollView.delegate = self;
     scrollView.minimumZoomScale = 0.5;
-    scrollView.maximumZoomScale = 2;
+    scrollView.maximumZoomScale = 5;
     _scrollView = scrollView;
 
     UIImage *image = [UIImage imageNamed:@"boy.jpg"];
@@ -55,9 +55,9 @@
 
 - (void)handleDoubleTap:(UIGestureRecognizer *)gestureRecognizer
 {
-    [UIView animateWithDuration:0.3 animations:^{
-        [self.scrollView setZoomScale:self.scrollView.zoomScale + 0.1];
-    }];
+    [UIView animateWithDuration:0.3 delay:0 options:UIViewAnimationOptionBeginFromCurrentState animations:^{
+        [self.scrollView setZoomScale:self.scrollView.zoomScale + 0.5];
+    } completion:nil];
 }
 
 - (void)scrollViewDidZoom:(UIScrollView *)scrollView
