@@ -21,8 +21,12 @@ describe(@"remote", ^{
         [window makeKeyAndVisible];
     });
     
-    it(@"displays image", ^{
-        expect(vc.view).will.haveValidSnapshotNamed(@"default");
+    it(@"displays image", ^AsyncBlock {
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, (unsigned long) NULL), ^(void) {
+            [NSThread sleepForTimeInterval:2.0];
+            expect(vc.view).will.haveValidSnapshotNamed(@"default");
+            done();
+        });
     });
 });
 

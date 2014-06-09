@@ -11,6 +11,7 @@
 		3C3DAC151945E1590026C814 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C3DAC131945E1590026C814 /* InfoPlist.strings */; };
 		3C3DAC171945E1B30026C814 /* ARImageViewInsideScrollViewTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C3DAC161945E1B30026C814 /* ARImageViewInsideScrollViewTests-Info.plist */; };
 		3C3DAC2E1945F4100026C814 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 3C3DAC2D1945F4100026C814 /* Images */; };
+		3C5A37761945FF5F00232A9D /* ARTile+ASCII.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A37751945FF5F00232A9D /* ARTile+ASCII.m */; };
 		3C5BC120193BC81500AE5AAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5BC11F193BC81500AE5AAA /* CoreGraphics.framework */; };
 		3C5BC122193BC81500AE5AAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5BC121193BC81500AE5AAA /* UIKit.framework */; };
 		3C5BC128193BC81500AE5AAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C5BC126193BC81500AE5AAA /* InfoPlist.strings */; };
@@ -63,6 +64,8 @@
 		3C3DAC141945E1590026C814 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		3C3DAC161945E1B30026C814 /* ARImageViewInsideScrollViewTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ARImageViewInsideScrollViewTests-Info.plist"; sourceTree = "<group>"; };
 		3C3DAC2D1945F4100026C814 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		3C5A37741945FF5F00232A9D /* ARTile+ASCII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ARTile+ASCII.h"; sourceTree = "<group>"; };
+		3C5A37751945FF5F00232A9D /* ARTile+ASCII.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ARTile+ASCII.m"; sourceTree = "<group>"; };
 		3C5BC11A193BC81500AE5AAA /* ARImageViewInsideScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARImageViewInsideScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C5BC11F193BC81500AE5AAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3C5BC121193BC81500AE5AAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -170,6 +173,8 @@
 		3C5BC123193BC81500AE5AAA /* ARImageViewInsideScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				3C5A37741945FF5F00232A9D /* ARTile+ASCII.h */,
+				3C5A37751945FF5F00232A9D /* ARTile+ASCII.m */,
 				3C3DAC2D1945F4100026C814 /* Images */,
 				3C5BC12C193BC81500AE5AAA /* ARAppDelegate.h */,
 				3C5BC12D193BC81500AE5AAA /* ARAppDelegate.m */,
@@ -365,6 +370,7 @@
 			files = (
 				3C5BC12A193BC81500AE5AAA /* main.m in Sources */,
 				3C5BC134193BC81500AE5AAA /* ARViewController.m in Sources */,
+				3C5A37761945FF5F00232A9D /* ARTile+ASCII.m in Sources */,
 				3C5BC12E193BC81500AE5AAA /* ARAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,7 @@
 //
 
 #import "ARViewController.h"
+#import "ARTile+ASCII.h"
 
 @interface ARViewController () <UIScrollViewDelegate>
 @property (nonatomic, readonly) NSObject<ARTiledImageViewDataSource> *dataSource;
@@ -19,6 +20,9 @@
 
 - (void)viewDidLoad
 {
+    UIImageView.ascii = YES;
+    ARTile.ascii = YES;
+
     ARLocalTiledImageDataSource *dataSource = [[ARLocalTiledImageDataSource alloc] init];
     _dataSource = dataSource;
     dataSource.tileBasePath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"Images/boy/tiles"];

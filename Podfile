@@ -1,6 +1,7 @@
 workspace 'ARImageViewInsideScrollView'
 
 pod 'ARTiledImageView', '1.1.1'
+pod 'ARASCIISwizzle', '1.1.0'
 
 target 'ARImageViewInsideScrollViewTests' do
   pod 'Specta', '0.2.1'

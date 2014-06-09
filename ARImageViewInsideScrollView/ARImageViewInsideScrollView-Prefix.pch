@@ -17,3 +17,4 @@
 
 #import <ARTiledImageView/ARTiledImageScrollView.h>
 #import <ARTiledImageView/ARLocalTiledImageDataSource.h>
+#import <ARASCIISwizzle/UIImageView+ASCII.h>
