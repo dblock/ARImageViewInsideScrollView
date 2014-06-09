@@ -10,6 +10,7 @@
 		3C2A91FF1945E02B00BAEADA /* ARViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2A91FE1945E02B00BAEADA /* ARViewControllerTests.m */; };
 		3C3DAC151945E1590026C814 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C3DAC131945E1590026C814 /* InfoPlist.strings */; };
 		3C3DAC171945E1B30026C814 /* ARImageViewInsideScrollViewTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C3DAC161945E1B30026C814 /* ARImageViewInsideScrollViewTests-Info.plist */; };
+		3C3DAC2E1945F4100026C814 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 3C3DAC2D1945F4100026C814 /* Images */; };
 		3C5BC120193BC81500AE5AAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5BC11F193BC81500AE5AAA /* CoreGraphics.framework */; };
 		3C5BC122193BC81500AE5AAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5BC121193BC81500AE5AAA /* UIKit.framework */; };
 		3C5BC128193BC81500AE5AAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C5BC126193BC81500AE5AAA /* InfoPlist.strings */; };
@@ -20,8 +21,8 @@
 		3C5BC136193BC81500AE5AAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5BC135193BC81500AE5AAA /* Images.xcassets */; };
 		3C5BC13D193BC81500AE5AAA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5BC13C193BC81500AE5AAA /* XCTest.framework */; };
 		3C5BC13F193BC81500AE5AAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5BC121193BC81500AE5AAA /* UIKit.framework */; };
-		3C5BC157193BCA6200AE5AAA /* boy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C5BC156193BCA6200AE5AAA /* boy.jpg */; };
 		C6A7442321E34889BC168562 /* libPods-ARImageViewInsideScrollViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B6A94641EC493EADFF378A /* libPods-ARImageViewInsideScrollViewTests.a */; };
+		D3C4C29F936D48C68A5CCEA1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 541A5D3E15A946FCB22E3AB3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		3C2A92001945E06B00BAEADA /* ARImageViewInsideScrollViewTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ARImageViewInsideScrollViewTests-Prefix.pch"; sourceTree = "<group>"; };
 		3C3DAC141945E1590026C814 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		3C3DAC161945E1B30026C814 /* ARImageViewInsideScrollViewTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ARImageViewInsideScrollViewTests-Info.plist"; sourceTree = "<group>"; };
+		3C3DAC2D1945F4100026C814 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
 		3C5BC11A193BC81500AE5AAA /* ARImageViewInsideScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARImageViewInsideScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C5BC11F193BC81500AE5AAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3C5BC121193BC81500AE5AAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -76,8 +78,9 @@
 		3C5BC135193BC81500AE5AAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3C5BC13B193BC81500AE5AAA /* ARImageViewInsideScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARImageViewInsideScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C5BC13C193BC81500AE5AAA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3C5BC156193BCA6200AE5AAA /* boy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boy.jpg; sourceTree = "<group>"; };
 		3C6E5D1152C04ED8836F01CC /* Pods-ARImageViewInsideScrollViewTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARImageViewInsideScrollViewTests.xcconfig"; path = "Pods/Pods-ARImageViewInsideScrollViewTests.xcconfig"; sourceTree = "<group>"; };
+		541A5D3E15A946FCB22E3AB3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		943C8EC4D1DE4715B8E99A95 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,7 @@
 			files = (
 				3C5BC120193BC81500AE5AAA /* CoreGraphics.framework in Frameworks */,
 				3C5BC122193BC81500AE5AAA /* UIKit.framework in Frameworks */,
+				D3C4C29F936D48C68A5CCEA1 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +142,7 @@
 				3C5BC11B193BC81500AE5AAA /* Products */,
 				3C2A91F61945DF6400BAEADA /* ARImageViewInsideScrollViewTests */,
 				3C6E5D1152C04ED8836F01CC /* Pods-ARImageViewInsideScrollViewTests.xcconfig */,
+				943C8EC4D1DE4715B8E99A95 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -157,6 +162,7 @@
 				3C5BC121193BC81500AE5AAA /* UIKit.framework */,
 				3C5BC13C193BC81500AE5AAA /* XCTest.framework */,
 				23B6A94641EC493EADFF378A /* libPods-ARImageViewInsideScrollViewTests.a */,
+				541A5D3E15A946FCB22E3AB3 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,7 +170,7 @@
 		3C5BC123193BC81500AE5AAA /* ARImageViewInsideScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				3C5BC155193BCA6200AE5AAA /* Images */,
+				3C3DAC2D1945F4100026C814 /* Images */,
 				3C5BC12C193BC81500AE5AAA /* ARAppDelegate.h */,
 				3C5BC12D193BC81500AE5AAA /* ARAppDelegate.m */,
 				3C5BC12F193BC81500AE5AAA /* Main.storyboard */,
@@ -187,14 +193,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3C5BC155193BCA6200AE5AAA /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				3C5BC156193BCA6200AE5AAA /* boy.jpg */,
-			);
-			path = Images;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -202,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C5BC14C193BC81500AE5AAA /* Build configuration list for PBXNativeTarget "ARImageViewInsideScrollView" */;
 			buildPhases = (
+				3EA6AB3A22D748168FDDC03C /* Check Pods Manifest.lock */,
 				3C5BC116193BC81500AE5AAA /* Sources */,
 				3C5BC117193BC81500AE5AAA /* Frameworks */,
 				3C5BC118193BC81500AE5AAA /* Resources */,
+				585197A672F74DC4A8CFB5EF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -277,7 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C5BC157193BCA6200AE5AAA /* boy.jpg in Resources */,
+				3C3DAC2E1945F4100026C814 /* Images in Resources */,
 				3C5BC136193BC81500AE5AAA /* Images.xcassets in Resources */,
 				3C5BC128193BC81500AE5AAA /* InfoPlist.strings in Resources */,
 				3C5BC131193BC81500AE5AAA /* Main.storyboard in Resources */,
@@ -309,6 +309,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Pods-ARImageViewInsideScrollViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EA6AB3A22D748168FDDC03C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		585197A672F74DC4A8CFB5EF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		920BA3E7B1F34173B2A44F64 /* Check Pods Manifest.lock */ = {
@@ -472,6 +502,7 @@
 		};
 		3C5BC14D193BC81500AE5AAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 943C8EC4D1DE4715B8E99A95 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -490,6 +521,7 @@
 		};
 		3C5BC14E193BC81500AE5AAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 943C8EC4D1DE4715B8E99A95 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

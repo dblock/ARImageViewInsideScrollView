@@ -1,5 +1,7 @@
 workspace 'ARImageViewInsideScrollView'
 
+pod 'ARTiledImageView', '1.1.1'
+
 target 'ARImageViewInsideScrollViewTests' do
   pod 'Specta', '0.2.1'
   pod 'Expecta', '0.2.4'
